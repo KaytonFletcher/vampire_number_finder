@@ -115,6 +115,8 @@ def main do
 
     if(lower <= upper) do
       {:ok, pid} = FangManager.start_link({lower, upper})
+
+
       Process.monitor(pid)
       FangManager.getAllNumbers(Supervisor.which_children(pid))
 

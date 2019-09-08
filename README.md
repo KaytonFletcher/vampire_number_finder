@@ -1,6 +1,5 @@
 # Project 1: Vampire Numbers
-  Members: Kayton Fletcher (8398-8405)
-
+  
 **This program takes in a lower and upper bound to search through for vampire numbers. It divides the given range into sub-ranges that are distributed to worker nodes and managed by a supervisor and multiple GenServers.**  
 
 ## Running the program
